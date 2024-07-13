@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+ [[Visit Site](https://technical-blog-eta.vercel.app/)]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Project Title: Technical-Blog
 
-## Available Scripts
+Technical Skills Learned
 
-In the project directory, you can run:
+This React project provided a rich learning environment, allowing me to solidify my understanding of essential React concepts and practical techniques:
 
-### `npm start`
+Routing: Mastered the art of navigation within the application using a routing library. This empowers the application to transition smoothly between different components based on user interactions or URL changes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Context API: Leveraged the Context API to effectively manage application-wide state in a centralized manner. This eliminates the need for prop drilling, making data management more scalable and maintainable across components at any level of the hierarchy.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+API Handling: Learned how to interact with external APIs (specifically CodeHelp's APIs in this project) to fetch data and integrate it seamlessly into the React components. This ability to interact with external data sources enhances the application's functionality and dynamism.
 
-### `npm test`
+Theming: Explored techniques for customizing the application's visual appearance using themes. This provides the flexibility to tailor the user interface based on preferences or brand guidelines.
+Hooks Utilized
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project extensively utilized various React hooks to manage component state, side effects, and interactions:
 
-### `npm run build`
+useState: Employed for managing component-specific state values and updating them efficiently.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+useEffect: Leveraged to perform side effects such as data fetching, subscriptions, or DOM manipulation after a component renders or updates.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+useContext: Utilized to access and update data from the global context established using the Context API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+useNavigate: Enabled programmatic navigation within the application, allowing for smooth transitions between different routes.
+useLocalStorage: Facilitated persisting data in the user's local storage, providing a mechanism to retain information even after page refreshes.
 
-### `npm run eject`
+useSearchParams: Employed to interact with URL search parameters, enabling parsing and manipulation of query strings.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+useLocation: Utilized to access information about the current URL, including the pathname, search parameters, and hash fragment. This can be valuable for crafting dynamic behavior based on the current URL.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Project Reference:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project was primarily built under the guidance of Love Babbar, a highly respected instructor at [www.codehelp.in]. Their insightful tutorials and resources played a key role in solidifying my understanding of React concepts.
 
-## Learn More
+Disclaimer:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+It's important to note that while Love Babbar's materials provided a strong foundation, this project may incorporate modifications, customizations, or additional features that go beyond the scope of their resources.
